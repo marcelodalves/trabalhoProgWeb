@@ -1,5 +1,5 @@
 body {
-	background-color: #b7d1c4
+	background-color: #A9A9A9
 }
 h2 {
 	font-family: Verdana;
@@ -18,15 +18,15 @@ img {
 	box-shadow: rgba(0,0,0,0.2) 10px 10px;
 }
 #navbar {
-	margin-top:-10px;
+	margin-top:-20px;
 	position:fixed;
 	left:50%;
-	margin-left:-254px;
+	margin-left:-150px;
 }
 #header {
 	position: relative;
 	top: 10px;
-	background-color: #3c4543;
+	background-color: #000000;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -34,6 +34,15 @@ ul{
 	list-style-type: none;
 	position: fixed;
 	margin: -10px;
+}
+#botaoTopo{
+	display:inline;
+	padding:5px;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+background-color: #cc0323
 }
 li {
 	display:inline;
@@ -94,7 +103,7 @@ th {
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 	height: 75px;
-	background-color: #3c4543;
+	background-color: #000000;
 }
 .bold{
 	font-family: tahoma;
